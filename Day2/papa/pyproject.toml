@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "python-dotenv",
     "openai>=1.98.0",
+    "requests>=2.33.1",
 ]
 [dependency-groups]
 dev = [
