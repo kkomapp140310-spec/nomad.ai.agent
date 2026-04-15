@@ -1,0 +1,15 @@
+[project]
+name = "life-coach-agent"
+version = "0.1.0"
+description = "Streamlit 기반 Life Coach Agent (OpenAI Agents SDK)"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.40.0",
+    "openai>=1.60.0",
+    "openai-agents>=0.13.0",
+    "duckduckgo-search>=7.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
