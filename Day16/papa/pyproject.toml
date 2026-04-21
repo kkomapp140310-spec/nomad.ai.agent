@@ -1,0 +1,15 @@
+[project]
+name = "restaurant-bot"
+version = "0.1.0"
+description = "AI Agents Masterclass #9.4~9.6 - Restaurant Bot with handoffs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai-agents>=0.0.17",
+    "streamlit>=1.40.0",
+    "pydantic>=2.9.0",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+# uv 전용 설정 (필요 시 dev-dependencies 등 추가)
